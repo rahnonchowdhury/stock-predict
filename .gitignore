@@ -1,6 +1,99 @@
-node_modules
-dist
-.DS_Store
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production builds
+dist/
+build/
+/client/dist
+/client/build
+/server/dist
 server/public
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# Temporary folders
+tmp/
+temp/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite specific
 vite.config.ts.*
+
+# Archives
 *.tar.gz
+*.tgz
+*.zip
+
+# API keys and secrets
+secrets.json
+config/secrets.js
+
+# Backup files
+*.backup
+*.bak
+
+# Test files and results
+test-results/
+coverage/
+
+# Replit specific
+.replit
+replit.nix
+
+# Local development
+.local
+
+# Error logs
+error.log
+debug.log

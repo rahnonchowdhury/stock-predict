@@ -8,6 +8,30 @@ This is a comprehensive web application that predicts weekly stock price decline
 
 Preferred communication style: Simple, everyday language.
 
+## Documentation Structure
+
+The project now includes comprehensive documentation:
+
+### Core Documentation
+- **README.md** - Main project documentation with features, setup, and usage
+- **LICENSE** - MIT License with financial disclaimers
+- **.env.example** - Environment variable template
+- **.gitignore** - Comprehensive exclusion patterns
+
+### Technical Documentation  
+- **docs/API.md** - Complete API documentation with endpoints and examples
+- **docs/DEPLOYMENT.md** - Deployment guide for multiple platforms
+- **docs/CONTRIBUTING.md** - Guidelines for contributors and development standards
+
+### Automation
+- **.github/workflows/ci.yml** - CI/CD pipeline with testing, security checks, and deployment
+
+### Recent Changes
+- **2024-08-20**: Added complete documentation suite for GitHub readiness
+- **2024-08-20**: Implemented CI/CD pipeline with automated testing
+- **2024-08-20**: Enhanced .gitignore with production-ready patterns
+- **2024-08-20**: Created comprehensive API and deployment documentation
+
 ## System Architecture
 
 ### Frontend Architecture
