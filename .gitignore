@@ -97,3 +97,9 @@ replit.nix
 # Error logs
 error.log
 debug.log
+
+# more to ignore
+replit.md 
+.replit 
+attached_assets
+package-lock.json
